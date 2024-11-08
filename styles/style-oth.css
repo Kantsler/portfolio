@@ -1,0 +1,153 @@
+@import url(https://fonts.google.com/specimen/Poppins?query=poppins);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f3a3b;
+    color: #e2e2e2;
+    line-height: 1.6;
+}
+
+section {
+    display: flex;
+    padding: 1.5rem;
+    border-bottom: 1px solid #e2e2e2;
+    justify-content: center;
+    width: 100%;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 1% 5% 1% 2%;
+    background-color: #121a35;
+    color: #e2e2e2;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+a {
+    color: #e2e2e2;
+    text-decoration: none;
+}
+
+.nav {
+    padding-right: 5%;
+    font-size: 2vw;
+    transition: 0.3s ease-in-out;
+    font-weight: bolder;
+}
+
+.nav:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+section {
+    text-align: center;
+    display: flex;
+    padding: 1.5rem;
+    border-bottom: 1px solid #e2e2e2;
+    justify-content: center;
+}
+
+.image {
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+.vertical {
+    max-width: 70%;
+    max-height: 90%;
+}
+
+.horizontal {
+    max-width: 90%;
+    max-height: 80%;
+}
+
+#other-achievements{
+    max-height: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+    align-items: start;
+}
+
+#oth-ach {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(4, auto);
+    font-size: 1.4vw;
+    column-gap: 5px;
+    max-height: 100%;
+    margin-bottom: 0;
+    padding:0;
+}
+
+.ach-name {
+    background-color:#254546;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 0;
+}
+
+
+#contact {
+    width: 100%;
+    text-align: center;
+    background-color: #121a35;
+    color: #e2e2e2;
+    bottom: 0;
+    padding: 15px 0 15px 0;
+}
+
+.cont-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a0f20;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+    cursor:pointer;
+    margin: 0 10px 0 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.cont-logo:hover {
+    transform: scale(1.1);
+    background-color: #17285e;
+}
+
+#logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa {
+    transform: scale(1.5);
+}
