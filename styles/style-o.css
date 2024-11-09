@@ -34,6 +34,12 @@ header {
     position:fixed;
     top: 0;
     width: 100%;
+    min-height: 5vh;
+    align-items: center;
+}
+
+main {
+    min-height: 90vh;
 }
 
 a {
@@ -42,8 +48,8 @@ a {
 }
 
 .nav {
-    padding-right: 5%;
-    font-size: 2vw;
+    padding-right: 4%;
+    font-size: 2vmax;
     transition: 0.3s ease-in-out;
     font-weight: bolder;
 }
@@ -53,7 +59,7 @@ a {
 }
 
 h1 {
-    font-size: 3vw;
+    font-size: 3vmax;
 }
 
 section {
@@ -79,7 +85,7 @@ section {
     align-items: center;
     grid-template-columns: repeat(2, 40%);
     grid-template-rows: repeat(4, auto);
-    font-size: 1.4vw;
+    font-size: 1.4vmax;
     column-gap: 10px;
     max-height: 100%;
     margin-bottom: 0;
@@ -119,7 +125,7 @@ img {
     align-items: center;
     grid-template-columns: repeat(3, 30%);
     grid-template-rows: repeat(2, auto);
-    font-size: 1.4vw;
+    font-size: 1.4vmax;
     column-gap: 5px;
     max-height: 100%;
     margin-bottom: 0;
@@ -140,6 +146,7 @@ img {
     color: #e2e2e2;
     bottom: 0;
     padding: 15px 0 15px 0;
+    min-height: 5vh;
 }
 
 .cont-logo {

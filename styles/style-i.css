@@ -26,6 +26,12 @@ header {
     position:fixed;
     top: 0;
     width: 100%;
+    min-height: 5vh;
+    align-items: center;
+}
+
+main {
+    min-height: 90vh;
 }
 
 a {
@@ -34,8 +40,8 @@ a {
 }
 
 .nav {
-    padding-right: 5%;
-    font-size: 2vw;
+    padding-right: 4%;
+    font-size: 2vmax;
     transition: 0.3s ease-in-out;
     font-weight: bolder;
 }
@@ -45,7 +51,7 @@ a {
 }
 
 h1 {
-    font-size: 3vw;
+    font-size: 3vmax;
 }
 
 section {
@@ -65,7 +71,7 @@ section {
 }
 
 #info {
-    font-size: 1.5vw;
+    font-size: 1.5vmax;
     width: 60%;
     padding-left: 7%;
     padding-right: 20px;
@@ -74,7 +80,7 @@ section {
 #photo {
     max-height: 25%;
     max-width: 25%;
-    border: 3px black solid;
+    border: 2px black solid;
     border-radius: 5%;
 }
 
@@ -108,7 +114,7 @@ section {
 }
 
 .project-name {
-    font-size: 1.8vw;
+    font-size: 1.8vmax;
     font-weight: 600;
 }
 
@@ -119,6 +125,7 @@ section {
     color: #e2e2e2;
     bottom: 0;
     padding: 15px 0 15px 0;
+    min-height: 5vh;
 }
 
 .cont-logo {
@@ -154,36 +161,3 @@ section {
     transform: scale(1.5);
 }
 
-@media only screen and (max-width:991px){
-    #photo {
-        max-height: 50%;
-        max-width: 50%;
-    }
-
-    #about {
-        padding: 15% 5% 5% 5%;
-    }
-
-    h1 {
-        font-size: 4vw;
-    }
-
-    #info {
-        font-size: 2.5vw;
-    }
-
-    #projects {
-        height: 100%;
-        width: 100%;
-    }
-
-
-    .project-name {
-        font-size: 2vw;
-    }
-
-    .nav {
-        font-size: 4.5vw;
-        padding-right: 3%;
-    }
-}
