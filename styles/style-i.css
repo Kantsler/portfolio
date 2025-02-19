@@ -149,8 +149,6 @@ section {
     background-color: #17285e;
 }
 
-
-
 #logos {
     display: flex;
     justify-content: center;
@@ -161,3 +159,22 @@ section {
     transform: scale(1.5);
 }
 
+@media only screen and (max-width:500px) {
+    #about {
+        padding: 10% 2% 5% 2%;
+    }
+    
+    #info {
+        font-size: 1.1vmax;
+        width: 70%;
+        padding-left: 4%;
+        padding-right: 14px;
+    }
+    
+    #photo {
+        max-height: 50%;
+        max-width: 50%;
+        border: 2px black solid;
+        border-radius: 5%;
+    }
+}
