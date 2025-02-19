@@ -84,11 +84,23 @@ section {
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
     font-size: 1.4vmax;
     column-gap: 10px;
     max-height: 100%;
     margin-bottom: 0;
+    padding:0;
+}
+
+#int-ol-outtable {
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 40%;
+    font-size: 1.4vmax;
+    margin-bottom: 0;
+    margin-top: 10px;
     padding:0;
 }
 
